@@ -1,49 +1,49 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 
-        Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background-image:
-        linear-gradient(rgb(140, 219, 140),
-                        rgb(20, 141, 20));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: black;
+    color: white;
 }
 
 .container h1 {
-    color: green;
+    width: fit-content;
+    color: blue;
     font-weight: 700;
     font-size: 25px;
-    text-align: center;
+    position: relative;
+    top: 25%;
+    left: 40%;
 }
 
-.converter-row {
+.converterBox {
     display: flex;
-    width: 40%;
-    justify-content: space-between;
+    width: 400px;
     align-items: center;
-    background: rgb(0, 56, 0);
+    background: rgb(138, 242, 138);
     border-radius: 10px;
     padding: 50px 20px;
+    position: relative;
+    top: 30%;
+    left:35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .col {
     flex-basis: 32%;
     text-align: center;
+    color: #171010;
 }
 
-.col label {
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #171010;
+.col input{
+    margin-top: 10px;
 }
 
 .col input {
